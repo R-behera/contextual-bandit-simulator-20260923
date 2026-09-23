@@ -1,0 +1,198 @@
+{
+  "format": "daily-project-prototype-v1",
+  "project": "contextual-bandit",
+  "title": "Contextual Bandit Decision Simulator",
+  "domain": "reinforcement-learning",
+  "mode": "agent",
+  "labels": [
+    "recommend-docs",
+    "recommend-tutorial",
+    "request-human-help"
+  ],
+  "prototypes": {
+    "recommend-docs": {
+      "experienced": 3,
+      "user": 3,
+      "asks": 3,
+      "for": 6,
+      "api": 3,
+      "parameter": 3,
+      "details": 3,
+      "documentation": 3,
+      "is": 5,
+      "the": 3,
+      "highest": 3,
+      "value": 3,
+      "action": 3,
+      "in": 2,
+      "an": 3,
+      "operations": 2,
+      "review": 2,
+      "evaluation": 1,
+      "case": 1,
+      "developer": 2,
+      "needs": 2,
+      "exact": 2,
+      "error": 2,
+      "code": 2,
+      "reference": 4,
+      "material": 2,
+      "appropriate": 2,
+      "precise": 2,
+      "lookup": 2
+    },
+    "recommend-tutorial": {
+      "in": 2,
+      "an": 4,
+      "operations": 2,
+      "review": 2,
+      "new": 2,
+      "developer": 2,
+      "asks": 2,
+      "how": 2,
+      "to": 2,
+      "build": 2,
+      "a": 7,
+      "first": 2,
+      "integration": 2,
+      "guided": 2,
+      "tutorial": 2,
+      "is": 5,
+      "the": 2,
+      "highest": 2,
+      "value": 2,
+      "action": 2,
+      "for": 2,
+      "evaluation": 2,
+      "case": 2,
+      "beginner": 3,
+      "requests": 3,
+      "complete": 3,
+      "walkthrough": 3,
+      "structured": 3,
+      "onboarding": 3,
+      "appropriate": 3
+    },
+    "request-human-help": {
+      "user": 2,
+      "reports": 2,
+      "a": 2,
+      "possible": 2,
+      "security": 4,
+      "compromise": 2,
+      "sensitive": 2,
+      "issues": 2,
+      "require": 2,
+      "human": 2,
+      "support": 2,
+      "for": 2,
+      "an": 3,
+      "evaluation": 2,
+      "case": 2,
+      "in": 1,
+      "operations": 1,
+      "review": 1,
+      "customer": 2,
+      "indicates": 2,
+      "potential": 2,
+      "data": 2,
+      "loss": 2,
+      "high": 2,
+      "impact": 2,
+      "cases": 2,
+      "must": 2,
+      "be": 2,
+      "escalated": 2
+    }
+  },
+  "idf": {
+    "documentation": 2.252763,
+    "is": 1.336472,
+    "the": 1.847298,
+    "highest": 1.847298,
+    "value": 1.847298,
+    "action": 1.847298,
+    "a": 2.252763,
+    "guided": 2.252763,
+    "tutorial": 2.252763,
+    "sensitive": 2.252763,
+    "security": 2.252763,
+    "issues": 2.252763,
+    "require": 2.252763,
+    "human": 2.252763,
+    "support": 2.252763,
+    "reference": 2.252763,
+    "material": 2.252763,
+    "appropriate": 1.847298,
+    "for": 2.252763,
+    "precise": 2.252763,
+    "lookup": 2.252763,
+    "structured": 2.252763,
+    "onboarding": 2.252763,
+    "high": 2.252763,
+    "impact": 2.252763,
+    "cases": 2.252763,
+    "must": 2.252763,
+    "be": 2.252763,
+    "escalated": 2.252763
+  },
+  "documents": [
+    {
+      "id": "bandit-01",
+      "label": "recommend-docs",
+      "text": "Documentation is the highest-value action.",
+      "metadata": {
+        "synthetic": true,
+        "domain": "reinforcement-learning"
+      }
+    },
+    {
+      "id": "bandit-02",
+      "label": "recommend-tutorial",
+      "text": "A guided tutorial is the highest-value action.",
+      "metadata": {
+        "synthetic": true,
+        "domain": "reinforcement-learning"
+      }
+    },
+    {
+      "id": "bandit-03",
+      "label": "request-human-help",
+      "text": "Sensitive security issues require human support.",
+      "metadata": {
+        "synthetic": true,
+        "domain": "reinforcement-learning"
+      }
+    },
+    {
+      "id": "bandit-04",
+      "label": "recommend-docs",
+      "text": "Reference material is appropriate for precise lookup.",
+      "metadata": {
+        "synthetic": true,
+        "domain": "reinforcement-learning"
+      }
+    },
+    {
+      "id": "bandit-05",
+      "label": "recommend-tutorial",
+      "text": "Structured onboarding is appropriate.",
+      "metadata": {
+        "synthetic": true,
+        "domain": "reinforcement-learning"
+      }
+    },
+    {
+      "id": "bandit-06",
+      "label": "request-human-help",
+      "text": "High-impact cases must be escalated.",
+      "metadata": {
+        "synthetic": true,
+        "domain": "reinforcement-learning"
+      }
+    }
+  ],
+  "graph_edges": [],
+  "confidence_threshold": 0.18,
+  "trained_on_synthetic_data": true
+}

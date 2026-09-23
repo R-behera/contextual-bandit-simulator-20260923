@@ -1,0 +1,52 @@
+{
+  "name": "Contextual Bandit Decision Simulator",
+  "problem": "Teams need to validate decision policies offline before exposing users or systems to online reinforcement learning.",
+  "domain": "reinforcement-learning",
+  "architecture": "agent",
+  "hugging_face_tasks": [
+    "reinforcement-learning",
+    "text-classification",
+    "feature-extraction",
+    "sentence-similarity"
+  ],
+  "recommended_stack": [
+    "FastAPI for policy and feedback endpoints",
+    "Vowpal Wabbit or River for online-learning baselines",
+    "PostgreSQL for contexts, actions, propensities, and rewards",
+    "Redis for low-latency policy serving",
+    "MLflow for policy versioning",
+    "OpenTelemetry for decisions and delayed rewards"
+  ],
+  "real_world_data_sources": [
+    {
+      "name": "Hacker News API",
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+      "purpose": "Real content candidates for recommendation simulations"
+    },
+    {
+      "name": "Open-Meteo API",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.01&current=temperature_2m",
+      "purpose": "Real contextual features without authentication"
+    }
+  ],
+  "job_description_skills": [
+    "Contextual bandits and offline policy evaluation",
+    "Propensity logging and counterfactual metrics",
+    "Low-latency decision services",
+    "Safe exploration and constrained actions",
+    "Delayed-feedback pipelines and policy monitoring"
+  ],
+  "impact_targets": [
+    "Beat a random policy by >= 20% average simulated reward",
+    "Report IPS and doubly robust offline estimates",
+    "Block 100% of disallowed actions before serving",
+    "Serve policy decisions below 50 ms p95"
+  ],
+  "baseline_evaluation": {
+    "test_examples": 4,
+    "accuracy": 1,
+    "synthetic_evaluation": true
+  },
+  "estimated_delivery": "8-12 weeks for one engineer",
+  "generated_baseline_is_production_ready": false
+}

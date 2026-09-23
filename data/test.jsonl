@@ -1,0 +1,4 @@
+{"id":"contextual-bandit-2-1","input":"new developer asks how to build a first integration","label":"recommend-tutorial","context":"A guided tutorial is the highest-value action.","source":"bandit-02","variant":"direct","synthetic":true}
+{"id":"contextual-bandit-3-2","input":"In an operations review, user reports a possible security compromise","label":"request-human-help","context":"Sensitive security issues require human support.","source":"bandit-03","variant":"operations","synthetic":true}
+{"id":"contextual-bandit-4-3","input":"For an evaluation case, developer needs exact error code reference","label":"recommend-docs","context":"Reference material is appropriate for precise lookup.","source":"bandit-04","variant":"evaluation","synthetic":true}
+{"id":"contextual-bandit-6-1","input":"customer indicates potential data loss","label":"request-human-help","context":"High-impact cases must be escalated.","source":"bandit-06","variant":"direct","synthetic":true}

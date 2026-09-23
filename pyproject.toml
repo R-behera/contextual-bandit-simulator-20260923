@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contextual-bandit-simulator-20260923"
+version = "0.1.0"
+description = "A safe offline contextual-bandit simulator for comparing exploration policies before production experimentation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "R-behera" }]
+dependencies = []
+
+[project.scripts]
+contextual-bandit-simulator-20260923 = "contextual_bandit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
